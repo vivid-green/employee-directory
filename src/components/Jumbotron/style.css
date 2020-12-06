@@ -1,0 +1,19 @@
+
+.bg {
+    background: url(./logo512.png) no-repeat center; 
+    /* -webkit-background-size: cover; */
+    /* -moz-background-size: cover; */
+    /* -o-background-size: cover; */
+    /* background-size: cover; */
+    background-color: rgb(41, 41, 41);
+    font-family: 'Major Mono Display', monospace;
+}
+
+p {
+    padding: 1.5rem;
+    font: 2rem;
+}
+
+.letter {
+    color:rgb(50, 238, 255);
+}

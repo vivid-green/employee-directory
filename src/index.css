@@ -1,0 +1,42 @@
+.mdb-datatable {
+    color: rgb(50, 238, 255);
+}
+
+th {
+    color: rgb(50, 238, 255);
+}
+
+td {
+    color: white;
+}
+
+.form-control {
+    background-color: rgb(109, 109, 109);
+    color:  rgb(50, 238, 255);
+    border-color:  rgb(50, 238, 255);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(50, 238, 255) !important;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(50, 238, 255) !important;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(50, 238, 255) !important;
+  }
+
+.page-link {
+    color: rgb(50, 238, 255) !important;
+}
+
+/* .containerWrap {
+    background-color: rgb(210, 211, 197);
+}
+
+html {
+    background-color: rgb(210, 211, 197);
+} */
