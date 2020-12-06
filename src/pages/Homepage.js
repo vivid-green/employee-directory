@@ -61,8 +61,6 @@ function Homepage() {
         .catch(err => console.log(err));
     },[]);
 
-
-    // return <h1>hello</h1>
     return (
         <div>
             <MDBContainer className="mw-100 containerWrap">
