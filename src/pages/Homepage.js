@@ -54,7 +54,7 @@ function Homepage() {
 
     useEffect(() => {
         axios
-        .get("https://api.mockaroo.com/api/4a03a8f0?count=500&key=1d694940")
+        .get("https://api.mockaroo.com/api/4a03a8f0?count=125&key=1d694940")
         .then(res => {
             setDataTable({...dataTable,rows: res.data});
         })
@@ -70,7 +70,7 @@ function Homepage() {
                         <Jumbotron></Jumbotron>
                         <MDBDataTableV5 
                             hover 
-                            entriesOptions={[5, 20, 25, 50]} 
+                            entriesOptions={[5, 15, 25]} 
                             entries={5} 
                             pagesAmount={4} 
                             data={dataTable}
